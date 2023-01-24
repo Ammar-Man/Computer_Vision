@@ -1,0 +1,36 @@
+Beskrivning
+Den här upptiften behöver inte lämnas in! 
+MEN det rekommenderas starkt att du gör den :) 
+
+Bekanta dej med avsnittet 
+“GUI Features in OpenCV” i OpenCV - Python tutorial
+
+Skapa sedan i Python och med OpenCV 
+en applikation som kan öppna en bild från en fil 
+och visa den på skärmen 
+(sökstigen till filen kan hårdkodas!). 
+Implementera simpla ritfunktioner så att det är 
+möjligt för användaren att rita linjer och ramar 
+(ofyllda rektanglar) med musen på den laddade bilden. 
+
+Mer specifikt, så här ska applikationern fungera 
+ur användarens synvinkel, för att rita en
+
+linje, tryck  först 'l' på tangentbordet 
+och håll sedan nere vänstermusknapp och “dra”.
+Linjen ritas då från den punkt där du tryckte 
+ner vänster musknapp och till den punkt där du 
+släppte upp vänster musknapp.
+
+ram, tryck först ‘r’ på tangentbordet och håll sedan 
+nere vänster musknapp och dra. Ramen ritas så att dess 
+vänstra övre hörn placeras på den punkt där du tryckte 
+ner vänster musknapp och ramens nedre högra hörn där du 
+släpper upp vänster musknapp.
+
+Användaren ska ha möjlighet att spara den editerade 
+bilden genom att trycka på ‘s’ på tangenbordet 
+(filnamnet får hårdkodas).
+
+Till slut, ska användaren kunna stänga applikationen
+genom att trycka på ‘q’ på tangentbordet.
